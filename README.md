@@ -31,9 +31,36 @@ Just Make Sure that your table names are the same names used for objects in your
        <li>
         <code>condtionDescriptorListOrTrue</code>: Optional: An array of conditionDescriptor if you need to specify conditions on select, or true to retrieve all records.
       </li>
+       <li>
+        <code>additionalParameters</code>: Optional: An Array of any additional parameters (to be used soon).
+      </li>
+       <li>
+        <code>Artifex_Excute_Query</code>: Optional: Mode of executing query, you can either execute, return statement or debug, see ArtifexTools.php
+      </li>
     </ol>
     function returns a MySQL Result Set on success or False on Failure.
   </li>
 
+
+
+
+
+
+
+
+<li><code>function Update($tableName, $artifexUpdateDescriptor, $conditionDescriptorList)</code>: Use this function to update records in a table.<br/>
+    <ol>Parameters Are
+      <li>
+        <code>artifexUpdateDescriptor</code>: An Array of UpdateDescriptor Objects (see ArtifexTools.php).
+      </li>
+       <li>
+        <code>condtionDescriptorListOrTrue</code>: Optional: An array of conditionDescriptor if you need to specify conditions on select, or true to retrieve all records.
+      </li>
+       <li>
+        <code>tableName</code>: Name for the table to be updated.
+      </li>
+    </ol>
+    function returns a MySQL Result Set on success or False on Failure.
+  </li>
 
 </ol>
