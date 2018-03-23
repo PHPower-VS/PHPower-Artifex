@@ -77,6 +77,7 @@ Just Make Sure that your table names are the same names used for objects in your
        <li>
         <code>condtionDescriptorListOrTrue</code>: Optional: An array of conditionDescriptor if you need to specify conditions on select, or true to retrieve all records.
       </li>
+  </ol>
        function returns true on success or false on failure.
   </li>
   
