@@ -35,7 +35,7 @@ Just Make Sure that your table names are the same names used for objects in your
         <code>additionalParameters</code>: Optional: An Array of any additional parameters (to be used soon).
       </li>
        <li>
-        <code>Artifex_Excute_Query</code>: Optional: Mode of executing query, you can either execute, return statement or debug, see ArtifexTools.php
+        <code>mode</code>: Optional: Mode of executing query, you can either execute, return statement or debug, see ArtifexTools.php
       </li>
     </ol>
     function returns a MySQL Result Set on success or False on Failure.
