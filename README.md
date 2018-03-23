@@ -2,6 +2,7 @@
 Artifex - DB CRUD Management Classes for MVC Developers in PHP
 # About
 Artifex is the most important module for <a href="https://marketplace.visualstudio.com/items?itemName=PHPower.PHPower">PHPower Visual Studio Extension</a></strong>. It elimenates the need to write common SQL queries manually for PHP Developers by calling easy to use and fully optional functions to do CRUD functionality.
+Artifex makes more automation for PHP Development, which is the core concept for DevOps; and consequently we complete the goal of PHPower to make a better DevOps Environment for PHP Developers.
 Just Make Sure that your table names are the same names used for objects in your source code, Mapping feature will be added soon.
 <b>NOTE: This version is for usage outside Visual Studio, i.e. for Netbeans and Eclipse PHP Projects.</b>
 
