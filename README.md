@@ -77,6 +77,20 @@ Just Make Sure that your table names are the same names used for objects in your
        <li>
         <code>condtionDescriptorListOrTrue</code>: Optional: An array of conditionDescriptor if you need to specify conditions on select, or true to retrieve all records.
       </li>
-       
+       function returns true on success or false on failure.
+  </li>
+  
+  <li><code>function Insert($tablename, $object, $mode)</code>: Use this function to Insert records in a table.<br/>
+    <ol>Parameters Are
+      <li>
+        <code>tableName</code>: Name for the table to be updated.
+      </li>
+      <li>
+        <code>object</code>: The object you want to insert
+      </li>
+             <li>
+        <code>mode</code>: Optional: Mode of executing query, you can either execute, return statement or debug, see ArtifexTools.php
+      </li>
+       function returns true on success or false on failure.
   </li>
 </ol>
